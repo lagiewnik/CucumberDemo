@@ -28,10 +28,10 @@ public class stepDefination {
         System.out.println("\"Home Page is populated\"");
     }
 
-    @Then("Cards are displayed")
-    public void cards_are_displayed() {
+    @Then("Cards displayed are {string}")
+    public void cards_are_displayed(String arg1) {
         // Write code here that turns the phrase above into concrete actions
-        System.out.println("Cards are displayed");
+        System.out.println("Cards are displayed " + arg1);
     }
 
 }
